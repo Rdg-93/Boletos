@@ -15,6 +15,7 @@ public class JBoletoApplication {
         paymentSlip1.setValue(new BigDecimal("299.99"));
         paymentSlip1.setPayer(new BankCustomer(paymentSlip1.getId(), ""));
         paymentSlip1.setPayee(new BankCustomer());
+
     }
 
     private static PaymentSlip generate(PaymentSlip paymentSlip) {
